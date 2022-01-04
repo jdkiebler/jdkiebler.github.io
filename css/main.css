@@ -140,3 +140,30 @@ footer a:not(.nav-link) {
   .page-break {
     padding-top: 5rem;
     page-break-before: always; } }
+
+#m365-mda {
+  content: url("../images/m365-mda-alt.png");
+  width: 336px;
+  height: 176px;
+  -webkit-transition: 2s all;
+    -webkit-transition-delay: 5s;
+    -moz-transition: 2s all;
+    -moz-transition-delay: 5s;
+    -ms-transition: 2s all;
+    -ms-transition-delay: 5s;
+    -o-transition: 2s all;
+    -o-transition-delay: 5s;
+    transition: 2s all;
+    transition-delay: 5s;
+}
+
+#m365-mda:hover {
+  content: url("../images/m365-mda.png");
+  width: 336px;
+  height: 176px;
+  -webkit-transition-delay: 5s;
+    -moz-transition-delay: 5s;
+    -ms-transition-delay: 5s;
+    -o-transition-delay: 5s;
+    transition-delay: 5s;
+}
