@@ -177,3 +177,7 @@ footer a:not(.nav-link) {
     -o-transition-delay: 5s;
     transition-delay: 5s;
 }
+
+.cert-img {
+  padding-right: 2.5em;
+}
